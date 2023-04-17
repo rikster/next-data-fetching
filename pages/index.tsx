@@ -24,7 +24,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href=""
+            href="/csr"
             className={styles.card}
             target="self"
           >
@@ -32,16 +32,14 @@ export default function Home() {
               CSR <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Client Side Rendering
-              <ul>
-                <li>Fetch data on the client side</li>
-                <li>Not SEO friendly</li>
-              </ul>
+              <b>Client Side Rendering</b><br />
+              - Fetch data on the client side<br />
+              - Not SEO friendly
             </p>
           </a>
 
           <a
-            href=""
+            href="/ssr"
             className={styles.card}
             target="self"
             rel="noopener noreferrer"
@@ -50,17 +48,16 @@ export default function Home() {
               SSR <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Server Side Rendering
-              <ul>
-                <li>Fetch data on the server side</li>
-                <li>Send the dynamic bundle to the client</li>
-                <li>SEO friendly</li>
-              </ul>
+              <b>Server Side Rendering</b><br />
+              - Fetch data on the server side<br />
+              - Send the dynamic bundle to the client<br />
+              - SEO friendly
             </p>
+
           </a>
 
           <a
-            href=""
+            href="/ssg"
             className={styles.card}
             target="self"
             rel="noopener noreferrer"
@@ -69,18 +66,16 @@ export default function Home() {
               SSG <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Static Site Generation
-              <ul>
-                <li>Fetch data on the server after a build/rebuild</li>
-                <li>Send the prebuilt-static-bundle to the client</li>
-                <li>Fastest but static - once changed needs a rebuild</li>
-                <li>SEO friendly</li>
-              </ul>
+              <b>Static Site Generation</b><br />
+              - Fetch data on the server after a build/rebuild<br />
+              - Send the prebuilt-static-bundle to the client<br />
+              - Fastest but static - once changed needs a rebuild<br />
+              - SEO friendly
             </p>
           </a>
 
           <a
-            href=""
+            href="/isg"
             className={styles.card}
             target="self"
             rel="noopener noreferrer"
@@ -89,11 +84,10 @@ export default function Home() {
               ISG <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Incremental Static Generation              <ul>
-                <li>Best of both worlds</li>
-                <li>Statically generate page/data</li>
-                <li>Rebuild page per interval - say 5 mins?</li>
-              </ul>
+              <b>Incremental Static Generation</b><br />
+              - Best of both worlds<br />
+              - Statically generate page/data<br />
+              - Rebuild page per interval - say 5 mins?<br />
             </p>
           </a>
         </div>
